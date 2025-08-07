@@ -10,4 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $_SESSION['edad'] = $_POST['edad'];
     $_SESSION['fecha_registro'] = date('Y-m-d H:i:s');
 }
+
+include '../Frontend/procesar.html';
+
 ?>

@@ -4,4 +4,7 @@ session_start();
 
 // Destruir todas las variables de sesión
 session_destroy();
+
+include '../Frontend/destruir_sesion.html';
+
 ?>
